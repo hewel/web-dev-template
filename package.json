@@ -1,0 +1,72 @@
+{
+  "name": "web-dev-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "cross-env NODE_ENV=devlopment gulp dev",
+    "build": "cross-env NODE_ENV=production gulp build",
+    "build:css": "cross-env NODE_ENV=production gulp buildStyle",
+    "cz": "cz"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@rollup/plugin-babel": "^5.0.4",
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^8.1.0",
+    "@rollup/plugin-replace": "^2.3.3",
+    "autoprefixer": "^9.8.4",
+    "babel-eslint": "^10.1.0",
+    "browser-sync": "^2.26.7",
+    "cheerio": "^1.0.0-rc.3",
+    "commitizen": "^4.2.1",
+    "cross-env": "^7.0.2",
+    "cssnano": "^4.1.10",
+    "cz-conventional-changelog": "3.3.0",
+    "dotenv-flow": "^3.2.0",
+    "esbuild": "^0.6.33",
+    "eslint": "^7.3.1",
+    "eslint-config-alloy": "^3.7.3",
+    "fibers": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-htmllint": "^0.0.19",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "hyperhtml": "^2.33.0",
+    "liquidjs": "^9.14.1",
+    "postcss-preset-env": "^6.7.0",
+    "rollup-plugin-esbuild": "^2.5.0",
+    "rollup-plugin-terser": "^6.1.0",
+    "sass": "^1.26.10",
+    "tailwindcss": "^1.4.6",
+    "through2": "^4.0.2"
+  },
+  "dependencies": {
+    "@babel/runtime-corejs3": "^7.10.4",
+    "@popperjs/core": "^2.4.4",
+    "axios": "^0.19.2",
+    "clsx": "^1.1.1",
+    "feather-icons": "^4.28.0",
+    "ky": "^0.20.0",
+    "popmotion": "^8.7.3",
+    "query-string": "^6.13.1",
+    "ramda": "^0.27.0",
+    "rollup": "^2.18.1",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^9.15.2",
+    "tippy.js": "^6.2.4",
+    "uhtml": "^2.0.1",
+    "whatwg-fetch": "^3.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

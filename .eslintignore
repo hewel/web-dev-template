@@ -1,0 +1,11 @@
+.cache
+/dist/**/*
+/node_modules/*
+/public/*
+/.git
+**/iconfont.js
+*.config.*
+config-overrides.js
+*.css
+*.svg
+*.png
